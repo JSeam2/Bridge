@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bridgeapp.bridge.ProfileFragment"
+    android:orientation="vertical">
+
+
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        android:id="@+id/profile_image"
+        android:contentDescription="Profile Picture"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_myname"
+        android:text="Username: Joshia Seam"
+        android:layout_margin="15dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: joshia_seam@mymail.sutd.edu.sg"
+        android:layout_margin="15dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MBTI: INTJ"
+        android:layout_margin="15dp"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode of Learning: Visual Learner"
+        android:layout_margin="15dp"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite Subjects: Music, Math"
+        android:layout_margin="15dp"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best Subject: Music"
+        android:layout_margin="15dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weakest Subject: History"
+        android:layout_margin="15dp"
+        android:textSize="16sp"/>
+
+    
+</LinearLayout>
